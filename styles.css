@@ -12,7 +12,8 @@
   --muted: #c9d6df;
   --blue: #00aaff;
   --orange: #ffb02e;
-  --red: #ff3b3b;
+  --red: #e71921;
+  --red-dark: #a80f16;
   --border: rgba(255, 255, 255, 0.12);
   --radius: 20px;
   --max-width: 1150px;
@@ -61,11 +62,11 @@ img {
   font-size: 1.1rem;
 }
 
-.logo-mark {
-  background: linear-gradient(135deg, var(--blue), var(--orange));
-  color: #fff;
-  padding: 0.45rem 0.6rem;
-  border-radius: 50%;
+.logo-img {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .nav-links {
